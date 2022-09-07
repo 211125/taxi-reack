@@ -1,0 +1,39 @@
+
+.barra-logo{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+.call{
+    width: 50px;
+}
+.profile{
+    width: 50px;
+    position: relative;
+    left: 40%;
+}
+.users{
+    position: relative;
+    left: 10px;
+    top: 50%;
+}
+.h1{
+    position: absolute;
+    left: 10%;
+}
+h2{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+/*estrellla*/
+label{ color:grey;}
+input[type = "radio"]{ display:none;}
+.clasificacion{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+label:hover{color:orange;}
+label:hover ~ label{color:orange;}
